@@ -1,0 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Mulish:ital@1&family=Roboto:wght@100&display=swap');
+
+.container{
+    margin-top: 20px;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.448) 0px 1px 4px;
+}
+.logo{
+    margin-left: 40px;
+    display:flex;
+    font-size: 15px;
+    font-weight: 800;
+    flex-direction: row;
+    color:rgb(0, 0, 0); 
+}
+.container a, p{
+    text-decoration: none;
+    font: 1em sans-serif;
+}
+.links{
+    width: 200px;
+    
+    display:flex;
+    align-items: center;
+}
+.lonks {
+    
+    display: flex;
+    width:50%;
+    align-items: center;
+    padding: 2px;
+}

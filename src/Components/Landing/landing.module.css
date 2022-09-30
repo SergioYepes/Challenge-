@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&family=Mulish:ital@1&family=Roboto:wght@100&display=swap');
+.container{
+    background-image: url("../../imagenes/playa.jpg");
+    display:flex;
+    flex-direction: column;
+    height: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height:660px;
+    /* background-attachment: fixed; */
+    border:solid 1px white;
+    align-items: center;
+    justify-content: space-between;
+}
+.textC{
+    /* border: 1px solid red; */
+    width: 400px;
+    color: rgb(255, 255, 255);
+    font: 1em sans-serif;
+    font-size: 35px;
+    text-shadow:2px 2px  gray;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.shop{
+    padding: 20px 30px;
+    background-color: transparent;
+    color:azure
+}
+.shop:hover{
+    cursor: pointer;
+}
+.button{
+    border-radius: 18px;
+}
+.button:hover{
+    cursor: pointer;
+    border: 1px solid white;
+}

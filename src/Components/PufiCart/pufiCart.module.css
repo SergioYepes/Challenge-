@@ -1,0 +1,46 @@
+.container{
+    display:flex;
+    justify-content:center
+}
+
+.containerImg{
+    background-image: url("../../imagenes/playa.jpg");
+    margin:0px;
+    display:flex;
+    flex-direction: column;
+    height: inherit;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    height:660px;
+    /* background-attachment: fixed; */
+    border:solid 1px white;
+    align-items: center;
+    justify-content: center;
+    height: 50vh;
+    width: 100vh;
+}
+.containerCart{
+    height: 50vh;
+    width: 100vh;
+}
+.Text{
+    border-top: 1px solid rgb(34, 30, 30);
+    /* text-shadow:2px 2px  gray; */
+    display:flex;
+    text-align: center;
+    margin-left: 150px;
+    justify-content: center;  
+    font-size: 18px;
+    width:400px;  
+}
+.vermas{
+    padding: 20px 30px;
+    border:transparent;
+    background-color: transparent;
+    color:rgb(199, 113, 52);
+    font-weight: 800;
+}
+.vermas:hover{
+    cursor: pointer;
+}

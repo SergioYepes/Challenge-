@@ -1,0 +1,16 @@
+.container{
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+    box-shadow: rgba(0, 0, 0, 0.448) 0px 1px 4px;
+}
+.cntBtn{
+    display:flex;
+  width: 100%;
+  justify-content: right;
+  align-items: center;
+  padding-right:10px;
+}
+.cntBtn a{
+    font-size: 2rem;
+}

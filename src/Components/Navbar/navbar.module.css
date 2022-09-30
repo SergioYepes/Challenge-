@@ -1,0 +1,59 @@
+.container{
+    margin-top: 20px;
+    width:100%;
+    display:flex;
+    justify-content: space-between;
+}
+.logo{
+    margin-left: 40px;
+    display:flex;
+    font-size: 15px;
+    font-weight: 800;
+    flex-direction: row;
+    color:rgb(255, 255, 255);
+}
+.buttons{
+    display:flex;
+    flex-direction: row;
+    color:rgb(255, 255, 255);
+    font-weight: 500;
+}
+.buttons div{
+    padding: 10px;
+    display:flex;
+    justify-content: space-between;
+}
+.links{
+    border-left: 1px solid white;
+    display:flex;  
+}
+.pufi:hover{
+    cursor: pointer;
+}
+.buttons:hover{
+    cursor: pointer;
+}
+.account{
+    
+    display:flex;
+    flex-direction: row;
+    margin-right:40px ;
+    color: rgb(252, 252, 252);;
+}
+
+.conts{
+    width: 100px;
+    height: 30px;
+    display: block;
+    justify-content: space-between;
+    background-color: transparent;
+    border-right: 1px solid white;
+}
+.cont{
+    width: 100px;
+    height: 30px;
+    display: block;
+    justify-content: space-between;
+}
+
+
