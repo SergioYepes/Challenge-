@@ -7,8 +7,8 @@ function PufiNap() {
     <div id="PufiNap" className={puffNap.container}>
        <div className={puffNap.containerNap}>
           <img src={naps} alt="" height="120px"/>
-          <h2>Pufi BOLSAS</h2>
-          <p className={puffNap.Text}>Bolsas muy resistentes, de facil manejo, con multiples diseños</p>
+          <h2>Pufi Nap</h2>
+          <p className={puffNap.Text}>Almohadines muy confortables, comodos y seguros</p>
           <button className={puffNap.vermas}> → VER MAS</button>
         </div>
         <div className={puffNap.containerShop}>
