@@ -4,6 +4,7 @@
 }
 
 .containerShop{
+    border: 2px solid black;
     background-image: url("../../imagenes/nap.jpg");
     margin:0px;
     display:flex;
@@ -14,7 +15,6 @@
     background-position: center center;
     height:660px;
     /* background-attachment: fixed; */
-    border:solid 1px white;
     align-items: center;
     justify-content: center;
     height: 50vh;
